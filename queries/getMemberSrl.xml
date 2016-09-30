@@ -1,0 +1,11 @@
+<query id="getMemberSrl" action="select">
+    <tables>
+        <table name="member" />
+    </tables>
+    <columns>
+        <column name="member_srl" />
+    </columns>
+    <conditions>
+        <condition operation="equal" column="user_id" var="user_id"/>
+    </conditions>
+</query>

@@ -1,0 +1,7 @@
+<filter name="delete_client" module="push_notification" act="procPush_notificationAdminDeleteClient" confirm_msg_code="confirm_delete">
+    <form>
+		<node target="cart" required="true" />
+	</form>
+	<parameter />
+    <response />
+</filter>

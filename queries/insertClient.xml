@@ -1,0 +1,11 @@
+<query id="insertClient" action="insert">
+    <tables>
+        <table name="push_notification" />
+    </tables>
+    <columns>
+        <column name="token" var="token" />
+		<column name="user_id" var="user_id" />
+		<column name="regdate" var="regdate" default="curdate()"/>
+		<column name="document_filter" var="document_filter"/>
+	</columns>
+</query>

@@ -1,0 +1,7 @@
+<table name="push_notification">	
+    <column name="token" type="varchar" size="200" notnull="notnull" primary_key="primary_key"/>
+	<column name="user_id" type="varchar" size="80"/>
+	<column name="regdate" type="date" index="idx_regdate"/> 
+	<column name="document_filter" type="varchar" size="200"/>
+
+</table>

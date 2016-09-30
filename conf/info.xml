@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.2">
+    <title xml:lang="ko">푸시알림</title>
+    <title xml:lang="en">Push_Notification</title>
+    <description xml:lang="ko">새글/댓글 정보를  FCM server로 보냅니다.</description>
+    <description xml:lang="en">Send Message to  FCM server </description>
+    <version>0.1</version>
+    <date>2016-09-06</date>
+    <category>service</category>
+    <author email_address="jdhwang730@gmail.com"/>
+        <name xml:lang="ko">황재동</name>
+        <name xml:lang="en">JaeDong Hwang</name>
+    </author>
+</module>

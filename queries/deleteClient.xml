@@ -1,0 +1,8 @@
+<query id="deleteClient" action="delete">
+    <tables>
+        <table name="push_notification" />
+    </tables>
+    <conditions>
+        <condition operation="equal" column="token" var="token"  />
+    </conditions>
+</query>

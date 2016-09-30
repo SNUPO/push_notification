@@ -1,0 +1,9 @@
+<query id="getClientByToken" action ="select">
+	<table><table name="push_notification"/></table>
+	<columns><columns name="*"/></columns>
+	<conditions>
+		<condition operation="equal" column="token" var="token" notnull="notnull" />
+	</condition>
+</query>
+
+	

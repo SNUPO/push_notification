@@ -1,0 +1,13 @@
+<query id="getClients" action="select">
+    <tables>
+        <table name="push_notification" />
+    </tables>
+    <columns>
+		<column name="token" />
+		<column name="user_id"/>
+		<column name="document_filter"/>
+    </columns>
+	<conditions>
+		<condition operation="notequal" column="user_id" var="user_id" /> 
+	</conditions>
+</query>

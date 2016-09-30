@@ -1,0 +1,13 @@
+<filter name="insert_client" module="push_notification" act="procPush_notificationAdminInsertClient" confirm_msg_code="confirm_submit">
+	<form>
+        <node target="token" required="true" />
+        <node target="user_id" />
+	</form>
+	<parameter>
+	</parameter>
+    <response callback_func="completeAdminInsert">
+        <tag name="error" />
+        <tag name="message" />
+        <tag name="ret_act" />
+    </response>
+</filter>

@@ -1,0 +1,33 @@
+<!--%import("filter/insert_concert.xml")-->
+<!--%import("js/callback.js")-->
+<!--#include("header.html")-->
+
+<form id="fo_insert_client"  action="./" method="get" onsubmit="return procFilter(this, insert_client)">
+    <h4 class="xeAdmin">{$lang->client_info}</h4>
+    <table cellspacing="0" class="rowTable">
+	<!--@if($token)--><input type="hidden" name="token" value="{$token}" /><!--@end-->
+    <tr>
+        <th scope="row"><div>{$lang->token}</div></th>
+        <td class="wide">
+            <input type="text" name="token" value="{$token}" class="inputTypeText" />
+        </td>
+    </tr>
+	<tr>
+        <th scope="row2"><div>{$lang->user_id}</div></th>
+        <td class="wide">
+            <input type="number" name="user_id" value="{$user_id}" class="inputTypeText" />
+        </td>
+    </tr>
+    </table>
+
+    <table cellspacing="0" class="rowTable">
+    <tbody>
+    <tr>
+        <th class="button">
+            <span class="button black strong"><input type="submit" value="{$lang->cmd_registration}" accesskey="s" /></span>
+            <a href="{getUrl('','act','dispPush_notificationAdminClients')}" class="button"><span>{$lang->cmd_cancel}</span></a>
+        </td>
+    </tr>
+    </tbody>
+    </table>
+</form>

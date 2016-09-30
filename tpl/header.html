@@ -1,0 +1,8 @@
+<h3 class="xeAdmin">{$lang->push_notification_admin}</h3>
+<div class="infoText">{nl2br($lang->about_push_notification)}</div>
+<div class="header4" cond="$module_info">
+    <ul class="localNavigation">
+        <li class="on"|cond="$act == 'dispPush_notificationAdmin'">
+			<a href="{getUrl('','module','admin','act','dispPush_notificationAdmin')}">{$lang->cmd_client_list}</a></li>
+    </ul>
+</div>
